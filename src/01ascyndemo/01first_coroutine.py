@@ -1,5 +1,7 @@
 import asyncio
+from utils import async_timed
 
+@async_timed
 async def main():
     print("Hello")
     # 模拟异步操作，比如网络请求、文件读写等
